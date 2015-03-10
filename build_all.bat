@@ -45,4 +45,10 @@ call build
 type build_output.txt >> ..\build_output.txt
 cd ..
 
+@echo 008 test for word repetition >> build_output.txt
+cd "008 test for word repetition"
+call build
+type build_output.txt >> ..\build_output.txt
+cd ..
+
 EXIT
