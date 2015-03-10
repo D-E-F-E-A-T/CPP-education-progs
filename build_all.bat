@@ -39,4 +39,10 @@ call build
 type build_output.txt >> ..\build_output.txt
 cd ..
 
+@echo 007 comparison of strings >> build_output.txt
+cd "007 comparison of strings"
+call build
+type build_output.txt >> ..\build_output.txt
+cd ..
+
 EXIT
