@@ -57,4 +57,10 @@ call build
 type build_output.txt >> ..\build_output.txt
 cd ..
 
+@echo 010 unsafe conversions take 2 >> build_output.txt
+cd "010 unsafe conversions take 2"
+call build
+type build_output.txt >> ..\build_output.txt
+cd ..
+
 EXIT
